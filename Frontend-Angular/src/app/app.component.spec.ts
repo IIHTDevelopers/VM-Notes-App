@@ -1,51 +1,25 @@
-import {
-  ComponentFixture,
-  TestBed,
-  TestBedStatic,
-  async,
-} from '@angular/core/testing';
-import { RouterTestingModule } from '@angular/router/testing';
-import { AppComponent } from './app.component';
-import { NotesComponent } from './notes/notes.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientTestingModule } from '@angular/common/http/testing';
-import { TestBedInitializer } from './init';
+import { TestBed, async } from "@angular/core/testing";
+import { RouterTestingModule } from "@angular/router/testing";
+import { AppComponent } from "./app.component";
+import { NotesComponent } from "./notes/notes.component";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { HttpClientTestingModule } from "@angular/common/http/testing";
 
-describe('AppComponent', () => {
-  let component: AppComponent;
-  let fixture: ComponentFixture<AppComponent>;
-  let h1: HTMLElement;
-  // beforeEach(async(() => {
-  //   TestBed.configureTestingModule({
-  //     imports: [
-  //       RouterTestingModule,
-  //       FormsModule,
-  //       ReactiveFormsModule,
-  //       HttpClientTestingModule,
-  //     ],
-  //     declarations: [AppComponent, NotesComponent],
-  //   }).compileComponents();
-  // }));
-  let TestBed: TestBedStatic;
-
-  beforeAll(() => {
-    TestBed = new TestBedInitializer().getTestBed();
-  });
-
-  beforeEach(() => {
+describe("AppComponent", () => {
+  beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [
-        // RouterTestingModule,
+        RouterTestingModule,
         FormsModule,
         ReactiveFormsModule,
         HttpClientTestingModule,
       ],
       declarations: [AppComponent, NotesComponent],
-    });
-  });
+    }).compileComponents();
+  }));
 
-  describe('boundary', () => {
-    it('should create the app component', () => {
+  describe("boundary", () => {
+    it("should create the app component", () => {
       const fixture = TestBed.createComponent(AppComponent);
       const app = fixture.componentInstance;
       expect(app).toBeTruthy();
