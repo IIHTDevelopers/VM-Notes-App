@@ -61,11 +61,6 @@ export class NotesComponent implements OnInit {
         ref?.click();
         this.formValues.reset();
         this.getAllNotesData();
-      },
-      (err) => {
-        if (err.status === 400) {
-          alert(JSON.stringify(err.error));
-        }
       }
     );
   }
@@ -116,11 +111,6 @@ export class NotesComponent implements OnInit {
         ref?.click();
         this.formValues.reset();
         this.getAllNotesData();
-      },
-      (err) => {
-        if (err.status === 400) {
-          alert(JSON.stringify(err.error));
-        }
       }
     );
   }
