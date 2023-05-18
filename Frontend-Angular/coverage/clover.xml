@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1683644922950" clover="3.2.0">
+  <project timestamp="1683644922950" name="All files">
+    <metrics statements="74" coveredstatements="37" conditionals="0" coveredconditionals="0" methods="24" coveredmethods="13" elements="98" coveredelements="50" complexity="0" loc="74" ncloc="74" packages="2" files="7" classes="7"/>
+    <package name="app">
+      <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <file name="app.component.html" path="F:\A_IIHT\Multifile-Web Apps\API Projects\NotesApp(EasyPostgresql)-Angular\NotesProjectFrontend\src\app\app.component.html">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="app.component.ts" path="F:\A_IIHT\Multifile-Web Apps\API Projects\NotesApp(EasyPostgresql)-Angular\NotesProjectFrontend\src\app\app.component.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="notes.service.ts" path="F:\A_IIHT\Multifile-Web Apps\API Projects\NotesApp(EasyPostgresql)-Angular\NotesProjectFrontend\src\app\notes.service.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="46" type="stmt"/>
+        <line num="10" count="46" type="stmt"/>
+        <line num="12" count="46" type="stmt"/>
+        <line num="14" count="42" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+      <file name="notes.ts" path="F:\A_IIHT\Multifile-Web Apps\API Projects\NotesApp(EasyPostgresql)-Angular\NotesProjectFrontend\src\app\notes.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.notes">
+      <metrics statements="59" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="19" coveredmethods="8"/>
+      <file name="notes.component.html" path="F:\A_IIHT\Multifile-Web Apps\API Projects\NotesApp(EasyPostgresql)-Angular\NotesProjectFrontend\src\app\notes\notes.component.html">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="notes.component.ts" path="F:\A_IIHT\Multifile-Web Apps\API Projects\NotesApp(EasyPostgresql)-Angular\NotesProjectFrontend\src\app\notes\notes.component.ts">
+        <metrics statements="52" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="18" coveredmethods="7"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="42" type="stmt"/>
+        <line num="18" count="42" type="stmt"/>
+        <line num="19" count="42" type="stmt"/>
+        <line num="22" count="41" type="stmt"/>
+        <line num="28" count="41" type="stmt"/>
+        <line num="32" count="292" type="stmt"/>
+        <line num="35" count="292" type="stmt"/>
+        <line num="38" count="292" type="stmt"/>
+        <line num="41" count="292" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="75" count="41" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="118" count="0" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="128" count="0" type="stmt"/>
+      </file>
+      <file name="notes.model.ts" path="F:\A_IIHT\Multifile-Web Apps\API Projects\NotesApp(EasyPostgresql)-Angular\NotesProjectFrontend\src\app\notes\notes.model.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="42" type="stmt"/>
+        <line num="3" count="42" type="stmt"/>
+        <line num="4" count="42" type="stmt"/>
+        <line num="5" count="42" type="stmt"/>
+        <line num="6" count="42" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
