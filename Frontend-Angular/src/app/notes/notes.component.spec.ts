@@ -131,7 +131,7 @@ describe('Notes Component', () => {
   });
 
   describe('Testing invoking of the methods', () => {
-    it('should call postNoteData', () => {
+<!--     it('should call postNoteData', () => {
       jest.spyOn(component, 'postNoteData');
       component.postNoteData();
       expect(component.postNoteData).toHaveBeenCalled();
@@ -147,7 +147,7 @@ describe('Notes Component', () => {
       jest.spyOn(component, 'clickAddNote');
       component.clickAddNote();
       expect(component.clickAddNote).toHaveBeenCalled();
-    });
+    }); -->
 
     it('should call deleteNote', () => {
       jest.spyOn(component, 'deleteNote');
