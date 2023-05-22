@@ -106,11 +106,6 @@ describe('NotesComponent', () => {
 
   describe('business', () => {
     // describe('Test:methods declarations of notes component', () => {
-      
-    it('clickAddNote method to be defined', () => {
-      component.clickAddNote = jest.fn();
-      expect(component.clickAddNote).toBeDefined();
-    });
 
     it('postNoteData method to be defined', () => {
       component.postNoteData = jest.fn();
